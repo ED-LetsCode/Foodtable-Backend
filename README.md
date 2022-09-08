@@ -1,7 +1,7 @@
 # Foodtable .Net Web-Api
 Foodtable Web Api Documentation
 
-<img src="/image.png" width="300"/>
+<img src="/image.png" width="400"/>
 
 
 ## What is Foodtable?
