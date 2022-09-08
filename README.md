@@ -10,7 +10,7 @@ Foodtable is an app that I programmed. With this app, you can create groups and 
 
 ## TODO Before Using API 
 - Git Clone the Project
-- [IMPORTANT] Build the Project(Click on the Foodtable.sln File)
+- [IMPORTANT] Build the Project(Click on the Foodtable.sln file)
 - Go to the Appsettings.JSON file and change the DataBase Connection String you will find the Instruction there
 - Save And start the Project
 
