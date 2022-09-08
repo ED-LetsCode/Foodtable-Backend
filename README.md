@@ -6,7 +6,7 @@
 ## What is Foodtable?
 
 You know that feeling when you want to order something for lunch with your friends and one of them always has to write everything down?
-Foodtable is an app that I programmed. With this app, you can create groups and add users. Users can add an order, which is then summarized in a PDF file on the frontend. This PDF file now shows all the orders in a group and from which user they are from.
+Foodtable is an app that I programmed. With this app, you can create groups and add users. Users can add an order, which is then summarized in a PDF file in the frontend. This PDF file now shows all the orders in a group and from which user they are from.
 
 ## TODO Before Using API 
 - Git Clone the Project
