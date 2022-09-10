@@ -26,9 +26,9 @@ and the script will start
 ## User requests
 
 [GET]
-- Get a User 
+- Get a user 
 - Get all existing users 
-- Get all groups Where user is joined 
+- Get all groups where user is joined 
 - Get all active groups where user is joined 
 - Get all orders from a user 
 
