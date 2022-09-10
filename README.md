@@ -11,10 +11,10 @@ Foodtable is an app that I programmed. With this app, you can create groups and 
 ## TODO Before Using API 
 - Git Clone the Project
 - Build the Project(Click on the Foodtable.sln file)
-- Go to the Appsettings.JSON file and change the DataBase Connection String you will find the Instruction there
+- Go to the Appsettings.JSON file and change the DataBase connection String you will find the Instruction there
 - Save And start the Project
 
-If you're starting the "rebuildDB.bat" script in the Shell Console it will delete and rebuild the Database !!!ATTENTION!!! YOU GONNA LOSE ALL DATA. 
+If you're starting the "rebuildDB.bat" script in the Shell Console it will delete and rebuild the Database !!!ATTENTION!!! ALL YOUR DATA WILL BE DELETED. 
 To start script navigate in the Folder and open with Shell Console:
 
 ```bash
@@ -27,22 +27,22 @@ and the script will start
 
 [GET]
 - Get a User 
-- Get All Existing Users 
-- Get All Groups Where User is Joined 
-- Get All Active Groups Where User is Joined 
-- Get All Orders from User 
+- Get all existing users 
+- Get all groups Where user is joined 
+- Get all active groups where user is joined 
+- Get all orders from a user 
 
 
 [POST]
-- Create A New User
+- Create a new user
 
 
 [UPDATE]
-- Update a User
+- Update a user
 
 
 [DELETE]
-- Delete A User
+- Delete a user
 
 
 
@@ -53,30 +53,29 @@ and the script will start
 ## Group requests 
 
 [GET]
-- Get All Existing Groups 
-- Get All User From a Group 
-- Get a Active Group 
-- Count All Users From A Group
-- Get Group Order and whole UserOrders at the Date <br/>
-Hint: Date Format to GET whole Group Order and UserOrders = " yyyy-MM-dd "
-- Count All User Orders At the Date <br/>
-Hint: Date Format to GET Counted User Orders= " yyyy-MM-dd "
+- Get all existing groups 
+- Get all users from a group 
+- Get a active group 
+- Count all users from a group
+- Get group order and whole UserOrders at the Date <br/>
+Hint: Date Format to GET whole GroupOrder and UserOrders = " yyyy-MM-dd "
+- Count All user orders at the Date <br/>
+Hint: Date Format to GET counted user orders= " yyyy-MM-dd "
 
 
 [POST]
-- Create Group
-Hint: If you're Creating a Group let the GroupId null it's Random Generate a Id in the Backend.
+- Create group
+Hint: If you're creating a group let the GroupId null it's Random generate a Id in the Backend.
 
 
 [UPDATE]
-- Put User in a Group 
-- Update Group
-Hint: Put the GroupId in the Body from the JSON to check if Group is existing
+- Put user in a group 
+- Update group
 
 
 [DELETE]
-- Delete Group
-- Delete User From a Group 
+- Delete group
+- Delete user from a group 
 
 
 
@@ -87,27 +86,25 @@ Hint: Put the GroupId in the Body from the JSON to check if Group is existing
 ## Order requests
 
 [GET]
-- Get All Existing Orders
-- Get Only a Order
-- Get All Exising User Orders 
-- Get a User Order 
+- Get all existing orders
+- Get only a order
+- Get all exising user orders 
+- Get a user order 
 
 [POST]
-- Create Order <br/>
-Hint: If you're Creating a Order let the OrderId null it's Random Generate a Id in the Backend.
+- Create order <br/>
+Hint: If you're creating a order let the OrderId null it's Random generate a Id in the Backend.
 
-- Create User Order <br/>
-Hint: If you're Creating a User Order let the UserOrderId null it's Random Generate a Id in the Backend.
+- Create user order <br/>
+Hint: If you're creating a user order let the UserOrderId null it's Random generate a Id in the Backend.
 
 
 [UPDATE]
-- Update a Order <br/>
-Hint: Let the UserId field in the JSON File empty
+- Update a order <br/>
 
-- Update a  User Order <br/>
-Hint: Let the GroupId field in the JSON File empty
+- Update a user order <br/>
 
 
 [DELETE]
-- Delete a Order 
-- Delete a User Order
+- Delete a order 
+- Delete a user order
